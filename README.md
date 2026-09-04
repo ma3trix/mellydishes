@@ -52,13 +52,16 @@ Every claim on the page traces to the client's own material — nothing invented
 
 ## Deploy
 
-**GitHub Pages is not an option for this repo.** Verified 2026-09-03: `ma3trix.github.io/Portfolio/`
-returns 404 despite the `Portfolio` repo existing — Pages does not serve private repos on the free
-plan, and this account is on the free plan. Only public repos resolve (`ma3trix.github.io/northfade/`
-is live).
+**GitHub Pages is not currently serving anything on this account.** Verified 2026-09-03 with a
+cache-busting request: `ma3trix.github.io` (root), `/Portfolio/` and `/northfade/` all return
+"There isn't a GitHub Pages site here." `Portfolio` and `northfade` are both private repos, which
+Pages will not serve on a free plan.
 
 So either flip `mellydishes` public at launch, or — better, since the client's work stays private —
 deploy to **Cloudflare Pages**, which serves private repos free and supports the custom domain.
+
+Careful when checking this: a browser will happily serve a *cached* copy of a Pages site that has
+since been unpublished. Always append a cache-busting query string before concluding a page is up.
 
 DNS for `mellydishes.com` → GitHub Pages:
 
