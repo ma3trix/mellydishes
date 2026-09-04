@@ -1,7 +1,7 @@
 # mellydishes
 
 Static marketing site for **Melly Dishes** — Nigerian home cooking and catering, Ottawa ON.
-Built by DOTSANDBOX. Private repo: `git@github.com:ma3trix/mellydishes.git`
+Built by BIYISANDBOX STUDIOS. Private repo: `git@github.com:ma3trix/mellydishes.git`
 
 - **Live target:** `mellydishes.com` — registered on Wix, currently **not connected to any site**
 - **Client Instagram:** [@melly_dishes](https://www.instagram.com/melly_dishes/)
@@ -22,7 +22,7 @@ CNAME                   mellydishes.com
 ## Local preview
 
 ```bash
-cd ~/Developer/dotsandbox/mellydishes
+cd ~/Developer/biyisandbox/mellydishes
 python3 -m http.server 8000
 open http://localhost:8000
 ```
