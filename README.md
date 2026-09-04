@@ -52,8 +52,13 @@ Every claim on the page traces to the client's own material — nothing invented
 
 ## Deploy
 
-GitHub Pages on a **private** repo needs a paid plan. On the free tier: either flip the repo
-public at launch, or deploy to **Cloudflare Pages / Netlify**, which both serve private repos free.
+**GitHub Pages is not an option for this repo.** Verified 2026-09-03: `ma3trix.github.io/Portfolio/`
+returns 404 despite the `Portfolio` repo existing — Pages does not serve private repos on the free
+plan, and this account is on the free plan. Only public repos resolve (`ma3trix.github.io/northfade/`
+is live).
+
+So either flip `mellydishes` public at launch, or — better, since the client's work stays private —
+deploy to **Cloudflare Pages**, which serves private repos free and supports the custom domain.
 
 DNS for `mellydishes.com` → GitHub Pages:
 
